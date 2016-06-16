@@ -56,16 +56,15 @@
 .welcome{
     background: transparent url('https://easyfastlearn.files.wordpress.com/2014/01/chemistry-peels.jpg') center center no-repeat;
     background-size: contain;
-    
     top: 0;
     left: 0;
-    height: 470px;
+    height: 500px;
 }
 
 .welcome p{
-    margin-left: 300px;
-    margin-top: 50px;
-    
+    text-align: center;
+    position: relative;
+    top: 20px;
     font-size: 30px;
     font-family: 'Oswald', sans-serif, inherit;
 }
