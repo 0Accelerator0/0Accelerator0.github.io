@@ -13,6 +13,13 @@ var main = function(){
         $('.dropdown-menu').hide(300);
     });
     
+    $('.arrow-next').click(function() {
+        slidenext();
+    });
+    $('.arrow-prev').click(function() {
+        slideprev();    
+    });
+    
     carousel();
 }
 
