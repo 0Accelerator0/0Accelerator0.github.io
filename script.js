@@ -1,4 +1,5 @@
-var main=function(){
+
+var main = function(){
     $('.dropdown-toggle').mousemove(function() {
         $('.dropdown-menu').show(300);
     });
@@ -8,11 +9,12 @@ var main=function(){
     $('.menu-other').mousemove(function() {
         $('.dropdown-menu').hide(300);
     });
-    $('.slider').mousemove(function() {
+    $('.intro').mousemove(function() {
         $('.dropdown-menu').hide(300);
     });
     
-    
 }
+
+
 
 $(document).ready(main);
