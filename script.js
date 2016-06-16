@@ -9,7 +9,7 @@ var main = function(){
     $('.menu-other').mousemove(function() {
         $('.dropdown-menu').hide(300);
     });
-    $('.intro').mousemove(function() {
+    $('.slider').mousemove(function() {
         $('.dropdown-menu').hide(300);
     });
     
